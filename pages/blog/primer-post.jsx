@@ -5,12 +5,12 @@ import Head from 'next/head';
 export default function primerPost() {
     return (
         <div>
-            <head>
+            <Head>
                 <title>Mi primer post</title>
                 <meta
                 name="description"
                 content="mi post desde nextjs" />
-            </head>
+            </Head>
             <h1>Mi primer post</h1>
             <Image
             src="/img/702-200x300.jpg" // Route of the image file
