@@ -7,7 +7,6 @@ import utilStyles from '../styles/utils.module.css';
 const name = "blog";
 
 export default function Layout({ children, title, description, home }) {
-    console.log(home);
     return (
         <div className={styles.container}>
             <Head>
